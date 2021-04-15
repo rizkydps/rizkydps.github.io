@@ -705,7 +705,7 @@ main .section-contact .php-email-form textarea {
 }
 
 main .section-contact .php-email-form button[type="submit"] {
-  background: var(--primary-color);
+  background: #fff;
   border: 0;
   padding: 10px 30px;
   color: var(--font-color);
