@@ -431,7 +431,7 @@ main .portfolio .portfolio-wrap .portfolio-info::after {
 
 main .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: var(--font-color);
+  color: #fff;
   font-weight: 600;
 }
 
@@ -449,7 +449,7 @@ main .portfolio .portfolio-wrap .portfolio-links {
 }
 
 main .portfolio .portfolio-wrap .portfolio-links a {
-  color: var(--font-color);
+  color: #fff;
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
