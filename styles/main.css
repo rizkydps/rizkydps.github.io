@@ -19,6 +19,7 @@
   --secondary-color: #343a40;
   --font-color: #FEFEFE;
   --bg-color: #303030;
+  --bg-bg: #302d2d;
   --form-color: #110f0f5b;
   --hover: #135bd8;
 }
@@ -26,7 +27,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   color: var(--font-color);
-  background-color: var(--form-color);
+  background-color: var(--bg-color);
 }
 
 .navbar-light {
