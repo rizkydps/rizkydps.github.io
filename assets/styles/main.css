@@ -19,7 +19,6 @@
   --secondary-color: #343a40;
   --font-color: #FEFEFE;
   --bg-color: #303030;
-  --bg-bg: #302d2d;
   --form-color: #110f0f5b;
   --hover: #135bd8;
 }
@@ -27,7 +26,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   color: var(--font-color);
-  background-color: var(--bg-color);
+  background-color: var(--form-color);
 }
 
 .navbar-light {
@@ -153,6 +152,8 @@ main .section-about .card-about img {
   border-radius: 30px;
   width: 300px;
   height: 350px;
+  max-width: 100%;
+  height: 100%;
 }
 
 main .section-about .card-about img:hover {
@@ -431,7 +432,7 @@ main .portfolio .portfolio-wrap .portfolio-info::after {
 
 main .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #fff;
+  color: var(--font-color);
   font-weight: 600;
 }
 
@@ -449,7 +450,7 @@ main .portfolio .portfolio-wrap .portfolio-links {
 }
 
 main .portfolio .portfolio-wrap .portfolio-links a {
-  color: #fff;
+  color: var(--font-color);
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
@@ -466,7 +467,6 @@ main .portfolio .portfolio-wrap:hover::before {
   left: 0;
   right: 0;
   bottom: 0;
-  
   opacity: 1;
 }
 
@@ -704,7 +704,7 @@ main .section-contact .php-email-form textarea {
 }
 
 main .section-contact .php-email-form button[type="submit"] {
-  background: #fff;
+  background: var(--primary-color);
   border: 0;
   padding: 10px 30px;
   color: var(--font-color);
@@ -738,8 +738,6 @@ main .section-contact .php-email-form button[type="submit"]:hover {
             transform: rotate(360deg);
   }
 }
-
-
 
 main .section-footer {
   padding: 0;
