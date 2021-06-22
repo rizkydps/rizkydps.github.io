@@ -384,6 +384,19 @@ main {
                 bottom: 0;
                 left: calc(50% - 50px);
             }
+
+            .btn-explore {
+                background: var(--primary-color);
+                padding: 10px 35px;
+                color: #fff;
+                font-weight: 600;
+                border-radius: 4px;
+
+                &:hover {
+                    background: var(--hover);
+                }
+            }
+
         }
     }
 
@@ -780,4 +793,7 @@ main {
     .section-footer {
         padding: 0;
     }
+
+
+
 }

@@ -342,6 +342,18 @@ main .portfolio .card-porto h2::after {
   left: calc(50% - 50px);
 }
 
+main .portfolio .card-porto h2 .btn-explore {
+  background: var(--primary-color);
+  padding: 10px 35px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+main .portfolio .card-porto h2 .btn-explore:hover {
+  background: var(--hover);
+}
+
 main .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
