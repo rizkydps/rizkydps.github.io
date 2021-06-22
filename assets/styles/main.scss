@@ -385,18 +385,20 @@ main {
                 left: calc(50% - 50px);
             }
 
-            .btn-explore {
-                background: var(--primary-color);
-                padding: 10px 35px;
-                color: #fff;
-                font-weight: 600;
-                border-radius: 4px;
 
-                &:hover {
-                    background: var(--hover);
-                }
+
+        }
+
+        .btn-explore {
+            background: var(--primary-color);
+            padding: 10px 35px;
+            color: #fff;
+            font-weight: 400;
+            border-radius: 4px;
+
+            &:hover {
+                background: var(--hover);
             }
-
         }
     }
 
