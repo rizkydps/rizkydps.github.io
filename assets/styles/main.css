@@ -578,12 +578,13 @@ main .portfolio-details .portfolio-details-carousel .owl-dot.active {
 
 main .section-contact .card-contact {
   border-radius: 20px;
-  background-color: var(--bg-color);
+  background-color: var(--secondary-color);
 }
 
 main .section-contact .card-contact h2 {
   font-size: 36px;
   font-weight: 700;
+  color: #fff;
 }
 
 main .section-contact .card-contact h2::after {
@@ -595,6 +596,10 @@ main .section-contact .card-contact h2::after {
   background: var(--primary-color);
   bottom: 0;
   left: calc(50% - 50px);
+}
+
+main .section-contact .card-contact p {
+  color: #fff;
 }
 
 main .section-contact .box-contact {
