@@ -631,11 +631,12 @@ main {
     .section-contact {
         .card-contact {
             border-radius: 20px;
-            background-color: var(--bg-color);
+            background-color: var(--secondary-color);
 
             h2 {
                 font-size: 36px;
                 font-weight: 700;
+                color: #fff;
 
                 &::after {
                     content: '';
@@ -647,6 +648,10 @@ main {
                     bottom: 0;
                     left: calc(50% - 50px);
                 }
+            }
+
+            p {
+                color: #fff;
             }
         }
 
