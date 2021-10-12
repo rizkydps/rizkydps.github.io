@@ -811,4 +811,8 @@ main .section-contact .php-email-form button[type="submit"]:hover {
 main .section-footer {
   padding: 0;
 }
+
+footer .footer-c {
+  color: #000;
+}
 /*# sourceMappingURL=main.css.map */
